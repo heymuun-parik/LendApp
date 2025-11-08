@@ -1,0 +1,11 @@
+{
+  "name": "resource-lender",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "pnpm --filter ./apps/api dev",
+    "dev:web": "pnpm --filter ./apps/web dev"
+  }
+}
