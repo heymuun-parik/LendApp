@@ -32,8 +32,8 @@
 - https://training.linuxfoundation.org/openjs/
 
 ### JSON.parse() and JSON.stringify:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
 
 ## Prototype Chain and Inheritance
 ```
@@ -76,4 +76,8 @@ new AlsoGood();
 new Bad(); // ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
 ```
 ## Arrays
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+## Download SQLite
+- https://www.youtube.com/watch?v=FsiyOAkC0P4
+- https://sqlite.org/download.html

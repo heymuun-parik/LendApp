@@ -1,4 +1,4 @@
-# Resource Lender — Starter repo
+# Lend And Earn App
 
 This repository contains a small scaffold for the Resource Lender project (web + api + db).
 
@@ -70,8 +70,6 @@ npm install -g pnpm
 ```
 
 2) From repo root, install dependencies for workspace (this will install each `apps/*` package):
-
-```
 
 3) API: generate Prisma client and seed the DB
 
