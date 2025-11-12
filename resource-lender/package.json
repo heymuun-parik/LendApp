@@ -1,14 +1,15 @@
 {
   "name": "resource-lender",
-  "private": true,
-  "workspaces": [
-    "apps/*"
-  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "dev:api": "pnpm --filter ./apps/api dev",
-    "dev:web": "pnpm --filter ./apps/web dev"
+    "dev:web": "pnpm --filter ./apps/web dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "pnpm": "^10.21.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.21.0"
 }

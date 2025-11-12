@@ -1,2 +1,0 @@
-- To start postgres session: psql -U postgres
-- To exit postgres session: \quit
