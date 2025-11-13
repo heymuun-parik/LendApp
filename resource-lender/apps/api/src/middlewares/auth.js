@@ -1,6 +1,4 @@
-import { Request, Response, NextFunction } from 'express'
-
-export function requireAuth(req: Request, res: Response, next: NextFunction){
+export function requireAuth(req, res, next){
   // Placeholder: in real app validate JWT/session
   next()
 }

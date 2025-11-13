@@ -1,8 +1,8 @@
 import express from 'express'
 import cors from 'cors'
-import authRoutes from './routes/auth'
-import listingsRoutes from './routes/listings'
-import loansRoutes from './routes/loans'
+import authRoutes from './routes/auth.js'
+import listingsRoutes from './routes/listings.js'
+import loansRoutes from './routes/loans.js'
 
 const app = express()
 app.use(express.json())

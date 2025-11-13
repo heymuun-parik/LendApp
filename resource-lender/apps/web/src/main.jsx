@@ -2,8 +2,20 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App'
 
-createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-)
+const rootEl = document.getElementById('root')
+if (rootEl) {
+  createRoot(rootEl).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  )
+} else {
+  // Fallback: mount to body if #root not present
+  const fallback = document.createElement('div')
+  document.body.appendChild(fallback)
+  createRoot(fallback).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  )
+}
